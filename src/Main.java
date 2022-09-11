@@ -16,11 +16,19 @@ public class Main {
             System.out.println("Если возраст человека равен " + age + ", то ему нужно ходить на работу");
         }
 
-
-
-
         // Задача 2
         System.out.println("Задача 2");
+        int childAge = 15;
+        if (childAge < 5) {
+            System.out.println("Если ребенку " + childAge + " лет, то он не может кататься на аттракционе");
+        }
+        else if (childAge >= 5 && childAge < 14) {
+            System.out.println("Если ребенку " + childAge + " лет, то он может кататься на аттракционе только в сопровождении взрослого. Если взрослого нет, то кататься нельзя");
+        }
+        else {
+            System.out.println("Если ребенку " + childAge + " лет, то он может кататься на аттракционе без сопровождения взрослого");
+        }
+
         // Задача 3
         System.out.println("Задача 3");
 
